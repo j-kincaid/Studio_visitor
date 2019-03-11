@@ -8,7 +8,7 @@ The Charlotte Street Foundation is a non-profit that supports the arts in Kansas
 
 After meeting with CSF Marketing Director, Mason Kilpatrick, I had lots of great suggestions for screen design and have recreated higher-res mocks. Bear in mind, that not all areas will be highlighted at the same time. 
 
-(/wireframes/Artist@2x.png)
+/wireframes/Artist@2x.png
 (/wireframes/Performance Schedule.png)
 (/wireframes/Splash@2x.png)
 
