@@ -33,14 +33,18 @@ video compilation                       |
 --------------------------------------- | 
                                         
 
-                                        
-Text Content                            |
---------------------------------------- | --------------------------------------
-                                        |        *OPTIONAL* NEWSLETTER SIGNUP
-120-word Artist's statement             |
-Performance Schedule                    | Back-end or Firebase for accepting user
-Map Location                            | contact info
+
+Text Content                            |       *Optional Newsletter Signup
+----------------------------------------| --------------------------------------
+120-word Artist's statement             | Back-end or Firebase for accepting user
+Performance Schedule                    | contact info
+Map Location                            | -------------------------------------- 
+----------------------------------------|
+
+Data
+----------------------------------------|
 id for type (visual, performance,       |
 writer)                                 |
 Boolean for snacks, merch, presence in  | 
-video compilation
+video compilation                       |
+----------------------------------------|
