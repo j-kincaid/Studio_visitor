@@ -18,7 +18,8 @@ Trello: (https://trello.com/invite/b/rTic6Act/ecaf2250f317e22ee4b59644adcd0fd9/l
 I'm also using the Projects feature incorporated within GitHub and have named the board "Curator". 
 
 
-INFORMATION ARCHITECTURE--------------- |--------------------------------------
+INFORMATION ARCHITECTURE:
+
 ARTISTS' SIDE                           |           ATTENDEES' SIDE
 --------------------------------------- | --------------------------------------
 For Each Artist                         |            For Each Session
@@ -30,7 +31,9 @@ Map location                            | to attend performances based on schedu
 icons for snacks, merch, presence in    | --------------------------------------
 video compilation                       |
 --------------------------------------- | 
-                                        |
+                                        
+
+                                        
 Text Content                            |
 --------------------------------------- | --------------------------------------
                                         |        *OPTIONAL* NEWSLETTER SIGNUP
