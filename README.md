@@ -17,25 +17,21 @@ Trello: (https://trello.com/invite/b/rTic6Act/ecaf2250f317e22ee4b59644adcd0fd9/l
 
 I'm also using the Projects feature incorporated within GitHub and have named the board "Curator". 
 
---------------------------------------- | --------------------------------------
-INFORMATION ARCHITECTURE
---------------------------------------- | --------------------------------------
---------------------------------------- | --------------------------------------
+
+INFORMATION ARCHITECTURE--------------- |--------------------------------------
 ARTISTS' SIDE                           |           ATTENDEES' SIDE
 --------------------------------------- | --------------------------------------
-                                        |
 For Each Artist                         |            For Each Session
 --------------------------------------- | --------------------------------------
-
 Images                                  | Cookies to track visits during event only
 --------------------------------------- | --------------------------------------
 Profile image                           | Trigger microinteractions to remind visitors
 Map location                            | to attend performances based on schedule
 icons for snacks, merch, presence in    | --------------------------------------
-video compilation                       |--------------------------------------
+video compilation                       |
 --------------------------------------- | 
                                         |
-Text Content                            |--------------------------------------
+Text Content                            |
 --------------------------------------- | --------------------------------------
                                         |        *OPTIONAL* NEWSLETTER SIGNUP
 120-word Artist's statement             |
@@ -43,6 +39,5 @@ Performance Schedule                    | Back-end or Firebase for accepting use
 Map Location                            | contact info
 id for type (visual, performance,       |
 writer)                                 |
-Boolean for snacks, merch, presence in  | --------------------------------------
+Boolean for snacks, merch, presence in  | 
 video compilation
---------------------------------------- | --------------------------------------
