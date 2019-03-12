@@ -18,7 +18,8 @@ Trello: (https://trello.com/invite/b/rTic6Act/ecaf2250f317e22ee4b59644adcd0fd9/l
 I'm also using the Projects feature incorporated within GitHub and have named the board "Curator". 
 
 
-INFORMATION ARCHITECTURE:
+SITE/INFORMATION ARCHITECTURE:
+
 
 ARTISTS' SIDE                           |           ATTENDEES' SIDE
 --------------------------------------- | --------------------------------------
@@ -34,7 +35,7 @@ video compilation                       |
                                         
 
 
-Text Content                            |       *Optional Newsletter Signup
+Text Content                            |       *Optional* Newsletter Signup
 ----------------------------------------| --------------------------------------
 120-word Artist's statement             | Back-end or Firebase for accepting user
 Performance Schedule                    | contact info
