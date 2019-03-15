@@ -24,52 +24,56 @@
         </header>
 
         <body>
+            <div id="mainMenu">
+                <button onclick="visitLocation()" class="dropbtn">Locations</button>
+                <ul id="mapMenu" class="dropdown-content">
+                    <li class="rest"><a href="#Restrooms">Restrooms</a></li>
+                    <li class="sched"><a href="schedule.html">Live Schedule</a></li>
+                    <li class="child"><a href="#childrens">Children's Table</a></li>
+                    <li class="refresh"><a href="#refresh">Refreshments</a></li>
 
-            <button onclick="visitLocation()" class="dropbtn">Link to Schedule of Performances</button>
-            <div id="mapMenu" class="dropdown-content">
-                <a href="schedule.html">Schedule of Performances</a></li>
-                <a href="#Restrooms">Restrooms</a>
-                <a href="#childrens">Children's Table</a>
-                <a href="#refresh">Refreshments</a>
-            </div>
-            <button onclick="visitLocation()" class="dropbtn">Artists</button>
-            <div id="artistMenu" class="dropdown-content">
 
-                <li>1 Katerina Guillermo</li>
-                <li><a href="#profile.html">2 Madison Mae Parker</a></li>
-                <li>3 Jessica Ayala</li>
-                <li>4 Sheri Hall</li>
-                <li>6 Lavinia Roberts</li>
-                <li>7 Kaia Nutting</li>
-                <li>8 Kevin Kilroy</li>
-                <li>9 Lilly McElroy</li>
-                <li>10 Kiki Serna</li>
-                <li>11 Jessica Kincaid</li>
-                <li>12 Laurena Roytberg</li>
-                <li>13 Jason Zeh</li>
-                <li>14 Tristian Griffin</li>
-                <li>15 Daniel Hogans</li>
-                <li>16 KC Public Theatre</li>
-                <li>17 Mazzy Mann</li>
-                <li>18 JE Baker</li>
-                <li>19 Fuko Ito</li>
-                <li>20 Elizabeth Stehling</li>
-                <li>21 Alicen Lundberg</li>
-                <li>22 Luke Haynes</li>
-                <li>23 Benjamin Wills</li>
-                <li>24 Iliann Alvarez</li>
-                <li>25 Elizabeth Derstine</li>
-                <li>26 Ruben Castillo</li>
-                <li>27 Bo Hubbard</li>
-                <li>28 Nazanin Amiri</li>
+                    <button onclick="visitArtist()" class="dropbtn">Artists</button>
+                    <ul id="artistMenu" class="dropdown-content" class="sub-menu">
 
-                <div>
-                </div>
+                        <li class="vis"><a href="#">1 Katerina Guillermo</a></li>
+                        <li class="write perf"><a href="profile.html">2 Madison Mae Parker</a></li>
+                        <li class="write perf"><a href="#">3 Jessica Ayala</a></li>
+                        <li class="write perf"><a href="#">4 Sheri Hall</a></li>
+                        <li class="write"><a href="#">6 Lavinia Roberts</a></li>
+                        <li class="perf"><a href="#">7 Kaia Nutting</a></li>
+                        <li class="write"><a href="#">8 Kevin Kilroy</a></li>
+                        <li class="vis"><a href="#">9 Lilly McElroy</a></li>
+                        <li class="vis"><a href="#">10 Kiki Serna</a></li>
+                        <li class="vis"><a href="#">11 Jessica Kincaid</a></li>
+                        <li class="vis"><a href="#">12 Laurena Roytberg</a></li>
+                        <li class="perf"><a href="#">13 Jason Zeh</a></li>
+                        <li class="perf"><a href="#">14 Tristian Griffin</a></li>
+                        <li class="perf"><a href="#">15 Daniel Hogans</a></li>
+                        <li class="perf"><a href="#">16 KC Public Theatre</a></li>
+                        <li class="perf"><a href="#">17 Mazzy Mann</a></li>
+                        <li class="vis"><a href="#">18 JE Baker</a></li>
+                        <li class="vis"><a href="#">19 Fuko Ito</a></li>
+                        <li class="vis"><a href="#">20 Elizabeth Stehling</a></li>
+                        <li class="write"><a href="#">21 Alicen Lundberg</a></li>
+                        <li class="vis"><a href="#">22 Luke Haynes</a></li>
+                        <li class="vis"><a href="#">23 Benjamin Wills</a></li>
+                        <li class="vis"><a href="#">24 Iliann Alvarez</a></li>
+                        <li class="vis"><a href="#">25 Elizabeth Derstine</a></li>
+                        <li class="vis"><a href="#">26 Ruben Castillo</a></li>
+                        <li class="vis"><a href="#">27 Bo Hubbard</a></li>
+                        <li class="vis"><a href="#">28 Nazanin Amiri</a></li>
+                    </ul>
+                </ul>
                 <script>
                     /* When the user clicks on the button, 
-                                                                                                                                            toggle between hiding and showing the dropdown content */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            toggle between hiding and showing the dropdown content */
                     function visitLocation() {
                         document.getElementById("mapMenu").classList.toggle("show");
+                    }
+
+                    function visitArtist() {
+                        document.getElementById("artistMenu").classList.toggle("show");
                     }
 
                     // Close the dropdown if the user clicks outside of it
