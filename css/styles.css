@@ -9,6 +9,10 @@ ul {
     list-style: none;
 }
 
+li {
+    color: #fff;
+}
+
 .perf {
     background-color: blue;
 }
@@ -87,6 +91,7 @@ ul li {
 
 .sched {
     background-color: rgb(18, 59, 241);
+    color: #fff;
 }
 
 .child {
