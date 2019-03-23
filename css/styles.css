@@ -31,11 +31,13 @@ h1 {
 
 img {
     max-width: 60vw;
+    border-radius: 5px;
 }
 
 #container {
     padding-left: 3em;
     position: relative;
+    margin: 0 auto;
 }
 
 body {
@@ -66,11 +68,6 @@ ul li {
 .dropbtn:hover,
 .dropbtn:focus {
     background-color: #2980B9;
-}
-
-.main-content {
-    position: relative;
-    display: inline-block;
 }
 
 #mainMenu li {
