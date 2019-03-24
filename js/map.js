@@ -1,10 +1,8 @@
 << ? xml version = "1.0"
 encoding = "utf-8" ? >
-    <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
     <
     svg version = "1.1"
-xmlns = "http://www.w3.org/2000/svg"
-xmlns: xlink = "http://www.w3.org/1999/xlink"
 x = "0px"
 y = "0px"
 viewBox = "0 0 600.5 440.6"
@@ -28,7 +26,7 @@ xml: space = "preserve" >
 	.st13{display:none;}
 	.st14{display:inline;fill:# D1138D; } <
     /style> <
-    g id = "Map" >
+g id = "Map" >
 
     <
     image style = "overflow:visible;"
@@ -1475,7 +1473,7 @@ VT7X9rXrV0i1VaPdziGEG0n / AKI626MNE + tfCsNGCwWHuHwqagUGpNb / ALsWTkGk6iolT618K 
 A9BU1PrU + tfDoioFxpnyY / okP + sc6 //Z" transform="matrix(0.48 0 0 0.48 0 0)">
     <
     /image> <
-    rect x = "73"
+rect x = "73"
 y = "185"
 class = "st0"
 width = "30"
@@ -1505,7 +1503,7 @@ height = "22" / >
     path class = "st2"
 d = "M56.9,103H43.1c-2.3,0-4.1-1.9-4.1-4.1v-8.7c0-2.3,1.9-4.1,4.1-4.1h13.7c2.3,0,4.1,1.9,4.1,4.1v8.7
 C61, 101.1, 59.1, 103, 56.9, 103 z "/> <
-    rect x = "59"
+rect x = "59"
 y = "60"
 class = "st2"
 width = "18"
@@ -1536,7 +1534,7 @@ width = "29"
 height = "32" / >
     <
     /g> <
-    g id = "Refresh" >
+g id = "Refresh" >
     <
     rect x = "471"
 y = "116"
@@ -1551,10 +1549,10 @@ width = "7"
 height = "24" / >
     <
     /g> <
-    g id = "Children" >
+g id = "Children" >
     <
     /g> <
-    g id = "_x32_7_x5F_Elizabeth_x5F_D" >
+g id = "_x32_7_x5F_Elizabeth_x5F_D" >
     <
     rect x = "518"
 y = "225"
@@ -1563,7 +1561,7 @@ width = "25"
 height = "35" / >
     <
     /g> <
-    g id = "_x32_8_x5F_Ruben" >
+g id = "_x32_8_x5F_Ruben" >
     <
     rect x = "532"
 y = "273"
@@ -1572,7 +1570,7 @@ width = "34"
 height = "54" / >
     <
     /g> <
-    g id = "_x32_9_x5F_Bo" >
+g id = "_x32_9_x5F_Bo" >
     <
     rect x = "521"
 y = "330"
@@ -1581,7 +1579,7 @@ width = "44"
 height = "76" / >
     <
     /g> <
-    g id = "_x33_0_x5F_Nazanin" >
+g id = "_x33_0_x5F_Nazanin" >
     <
     rect x = "475"
 y = "315"
@@ -1590,7 +1588,7 @@ width = "43"
 height = "89" / >
     <
     /g> <
-    g id = "_x32_3_x5F_Luke" >
+g id = "_x32_3_x5F_Luke" >
     <
     rect x = "532"
 y = "38"
@@ -1599,7 +1597,7 @@ width = "34"
 height = "42" / >
     <
     /g> <
-    g id = "_x32_4_x5F_Beki" >
+g id = "_x32_4_x5F_Beki" >
     <
     rect x = "532"
 y = "82"
@@ -1608,7 +1606,7 @@ width = "34"
 height = "31" / >
     <
     /g> <
-    g id = "_x32_5_x5F_Ben" >
+g id = "_x32_5_x5F_Ben" >
     <
     rect x = "532"
 y = "116"
@@ -1617,7 +1615,7 @@ width = "34"
 height = "50" / >
     <
     /g> <
-    g id = "_x32_6_x5F_Illian" >
+g id = "_x32_6_x5F_Illian" >
     <
     rect x = "513"
 y = "169"
@@ -1626,7 +1624,7 @@ width = "30"
 height = "54" / >
     <
     /g> <
-    g id = "_x31_9_x5F__x3F_" >
+g id = "_x31_9_x5F__x3F_" >
     <
     rect x = "390"
 y = "105"
@@ -1635,7 +1633,7 @@ width = "53"
 height = "38" / >
     <
     /g> <
-    g id = "_x32_0_x5F_Fuko" >
+g id = "_x32_0_x5F_Fuko" >
     <
     rect x = "390"
 y = "68"
@@ -1644,7 +1642,7 @@ width = "53"
 height = "34" / >
     <
     /g> <
-    g id = "_x32_1_x5F_Elizabeth_x5F_S" >
+g id = "_x32_1_x5F_Elizabeth_x5F_S" >
     <
     rect x = "391"
 y = "32"
@@ -1653,7 +1651,7 @@ width = "82"
 height = "32" / >
     <
     /g> <
-    g id = "Restrooms" >
+g id = "Restrooms" >
     <
     rect x = "103"
 y = "179"
@@ -1674,7 +1672,7 @@ width = "32"
 height = "44" / >
     <
     /g> <
-    g id = "Elevators" >
+g id = "Elevators" >
     <
     rect x = "158"
 y = "161"
@@ -1713,7 +1711,7 @@ width = "23"
 height = "101" / >
     <
     /g> <
-    g id = "_x32_2_x5F_Alicen" >
+g id = "_x32_2_x5F_Alicen" >
     <
     rect x = "476"
 y = "37"
@@ -1722,7 +1720,7 @@ width = "34"
 height = "29" / >
     <
     /g> <
-    g id = "_x31_8_x5F_Jason" >
+g id = "_x31_8_x5F_Jason" >
     <
     rect x = "300"
 y = "31"
@@ -1731,7 +1729,7 @@ width = "87"
 height = "26" / >
     <
     /g> <
-    g id = "Perf_x5F_13_x5F_17" >
+g id = "Perf_x5F_13_x5F_17" >
     <
     rect x = "300"
 y = "60"
@@ -1740,7 +1738,7 @@ width = "87"
 height = "82" / >
     <
     /g> <
-    g id = "_x38__x5F_Lilly" >
+g id = "_x38__x5F_Lilly" >
     <
     rect x = "38"
 y = "52"
@@ -1749,7 +1747,7 @@ width = "54"
 height = "30" / >
     <
     /g> <
-    g id = "_x39__x5F_Kiki" >
+g id = "_x39__x5F_Kiki" >
     <
     rect x = "84"
 y = "100"
@@ -1758,7 +1756,7 @@ width = "49"
 height = "42" / >
     <
     /g> <
-    g id = "_x35__x5F_Kaia" >
+g id = "_x35__x5F_Kaia" >
     <
     rect x = "37"
 y = "143"
@@ -1767,7 +1765,7 @@ width = "27"
 height = "24" / >
     <
     /g> <
-    g id = "_x36__x5F_JE_x5F_Baker" >
+g id = "_x36__x5F_JE_x5F_Baker" >
     <
     rect x = "37"
 y = "106"
@@ -1776,7 +1774,7 @@ width = "27"
 height = "34" / >
     <
     /g> <
-    g id = "_x37__x5F_Kevin" >
+g id = "_x37__x5F_Kevin" >
     <
     rect x = "38"
 y = "86"
@@ -1785,7 +1783,7 @@ width = "27"
 height = "17" / >
     <
     /g> <
-    g id = "_x34__x5F_Sheri" >
+g id = "_x34__x5F_Sheri" >
     <
     rect x = "72"
 y = "244"
@@ -1794,7 +1792,7 @@ width = "29"
 height = "27" / >
     <
     /g> <
-    g id = "_x33__x5F_Jessica_x5F_A" >
+g id = "_x33__x5F_Jessica_x5F_A" >
     <
     rect x = "72"
 y = "214"
@@ -1803,10 +1801,10 @@ width = "30"
 height = "27" / >
     <
     /g> <
-    g id = "_x32__x5F_Madi" >
+g id = "_x32__x5F_Madi" >
     <
     /g> <
-    g id = "Perf12_x5F_14" >
+g id = "Perf12_x5F_14" >
     <
     rect x = "180"
 y = "46"
@@ -1821,7 +1819,7 @@ width = "88"
 height = "11" / >
     <
     /g> <
-    g id = "_x31__x5F_Kat_1_" >
+g id = "_x31__x5F_Kat_1_" >
     <
     rect id = "_x31__x5F_Kat"
 x = "136"
@@ -1831,7 +1829,7 @@ width = "40"
 height = "43" / >
     <
     /g> <
-    g id = "_x31_0_x5F_Jessica_x5F_K" >
+g id = "_x31_0_x5F_Jessica_x5F_K" >
     <
     rect x = "95"
 y = "52"
@@ -1846,7 +1844,7 @@ width = "9"
 height = "9" / >
     <
     /g> <
-    g id = "_x31_1_x5F_Laurena"
+g id = "_x31_1_x5F_Laurena"
 class = "st13" >
     <
     rect x = "137.3"
@@ -1861,5 +1859,5 @@ class = "st14"
 width = "11.2"
 height = "16" / >
     <
-    /g> <
-    /svg>
+    /g> < /
+    svg >

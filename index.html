@@ -14,6 +14,7 @@
     <title>CHARLOTTE STREET FOUNDATION OPEN STUDIOS EVENT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/StudiosMap.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -23,8 +24,20 @@
         </header>
 
         <body>
+            <div id="map" class=".image">
+                <!-- <img background-image: url(StudiosMap.png);/> -->
+                <svg>
+                    <defs>
+                        <g id="studio-icon">
+                            <!-- All the paths and shapes for studio icons -->
+                        </g>
 
-            <img src="images/StudiosMap.png" />
+                        <g id="studio-map">
+                            <!-- All the paths and shapes for map icons -->
+                        </g>
+                    </defs>
+                </svg>
+            </div>
             <div id="mainMenu">
                 <button onclick="visitLocation()" class="dropbtn">Locations</button>
                 <ul id="mapMenu" class="dropdown-content">
@@ -68,7 +81,7 @@
 
                 <script>
                     /* When the user clicks on the button, 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        toggle between hiding and showing the dropdown content */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    toggle between hiding and showing the dropdown content */
                     function visitLocation() {
                         document.getElementById("mapMenu").classList.toggle("show");
                     }
