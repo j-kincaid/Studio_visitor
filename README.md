@@ -21,9 +21,9 @@ I'm also using the Projects feature incorporated within GitHub and have named th
 SITE/INFORMATION ARCHITECTURE:
 
 
-ARTISTS' SIDE                           |           ATTENDEES' SIDE
+FOR EACH ARTIST                         |           FOR EACH ATTENDEE
 --------------------------------------- | --------------------------------------
-For Each Artist                         |            For Each Session
+                                        |           For Each Session
 --------------------------------------- | --------------------------------------
 Images                                  | Cookies to track visits during event only
 --------------------------------------- | --------------------------------------
