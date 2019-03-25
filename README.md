@@ -23,7 +23,7 @@ SITE/INFORMATION ARCHITECTURE:
 
 FOR EACH ARTIST                         |           FOR EACH ATTENDEE
 --------------------------------------- | --------------------------------------
-                                        |           For Each Session
+   For Each Page load                   |           For Each Session
 --------------------------------------- | --------------------------------------
 Images                                  | Cookies to track visits during event only
 --------------------------------------- | --------------------------------------
