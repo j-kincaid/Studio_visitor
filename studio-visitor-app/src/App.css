@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+header h1 {
+  flex-grow: 1;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: normal;
+}

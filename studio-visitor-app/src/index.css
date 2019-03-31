@@ -34,7 +34,7 @@ img {
     border-radius: 5px;
 }
 
-#container {
+#root {
     padding-left: 3em;
     position: relative;
     margin: 0 auto;

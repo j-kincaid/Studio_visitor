@@ -12,15 +12,19 @@
 
 <head>
     <title>CHARLOTTE STREET FOUNDATION OPEN STUDIOS EVENT</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="css/StudiosMap.css" rel="stylesheet" type=" /text/css" />
+    <link rel="stylesheet" href="./App.css" />
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-    <div id="container">
+    <div id="root">
         <header>
             <h1>CHARLOTTE STREET FOUNDATION OPEN STUDIOS EVENT</h1>
+            <span class="stats"></span>
         </header>
 
             <div id="map" class=".image" />
@@ -37,14 +41,7 @@
                 </svg>
     </div>
     <div id="mainMenu">
-        <button onclick="visitLocation()" class="dropbtn">Locations</button>
-        <ul id="mapMenu" class="dropdown-content">
-            <li class="rest"><a href="#Restrooms">Restrooms</a></li>
-            <li class="sched"><a href="schedule.html">Live Schedule</a></li>
-            <li class="child"><a href="#childrens">Children's Table</a></li>
-            <li class="refresh"><a href="#refresh">Refreshments</a></li>
-
-        </ul>
+        
         <button onclick="visitArtist()" class="dropbtn">Artists</button>
         <ul id="artistMenu" class="dropdown-content" class="sub-menu">
 
