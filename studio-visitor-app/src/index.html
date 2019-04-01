@@ -40,8 +40,7 @@
                 </defs>
                 </svg>
     </div>
-    <div class="artist">
-        
+<!--         
         <button onclick="visitArtist()" class="dropbtn">Artists</button>
         <ul id="artistMenu" class="dropdown-content" class="sub-menu">
 
@@ -72,33 +71,9 @@
             <li class="vis"><a href="#">26 Ruben Castillo</a></li>
             <li class="vis"><a href="#">27 Bo Hubbard</a></li>
             <li class="vis"><a href="#">28 Nazanin Amiri</a></li>
-        </ul>
+        </ul> -->
 
-        <script>
-            /* When the user clicks on the button, 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                toggle between hiding and showing the dropdown content */
-            function visitLocation() {
-                document.getElementById("mapMenu").classList.toggle("show");
-            }
-
-            function visitArtist() {
-                document.getElementById("artistMenu").classList.toggle("show");
-            }
-
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                        }
-                    }
-                }
-            }
-        </script>
+       
 
         <footer><small>&copy; 2019 Jessica Kincaid</small></footer>
 
