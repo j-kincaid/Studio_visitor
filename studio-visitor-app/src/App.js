@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ReactDOM from 'react-dom';
+
+// import ReactDOM from 'react-dom';
 
 const artists = [
   {
@@ -69,7 +68,6 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <h2>Test</h2>
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -82,7 +80,6 @@ class App extends Component {
           <ArtistList 
             artist={artists}
           />
-            Learn React
           </a>
         </header>
       </div>
