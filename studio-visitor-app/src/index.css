@@ -5,12 +5,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 {
-    font-size: 3.5em;
+header h1 {
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 code {

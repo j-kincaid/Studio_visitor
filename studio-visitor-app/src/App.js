@@ -4,7 +4,7 @@ import './index.css';
 const artists = [{
         id: 7,
         url: 'images/09lilly.jpg',
-        name: 'Lilly',
+        name: 'LILLY McELROY',
         studio: 9,
         bio: 'Lillys-bio',
         type: 'visual'
@@ -12,7 +12,7 @@ const artists = [{
     {
         id: 9,
         url: 'images/11jessica.jpg',
-        name: "Jessica",
+        name: "JESSICA KINCAID",
         studio: 11,
         bio: 'Jessicas-bio',
         type: 'visual'
@@ -20,7 +20,7 @@ const artists = [{
     {
         url: 'images/12laurena.jpg',
         id: 10,
-        name: "Laurena",
+        name: "LAURENA ROYTBERG",
         studio: 12,
         bio: 'Laurenas-bio',
         type: 'visual'
@@ -32,19 +32,20 @@ const Artist = (props) => {
     return ( <
         div className = "profile" >
         <
+        h2 > { props.name } < /h2>  <
         div >
         <
         img src = { props.url }
         alt = { props.picture }
         /> < /
         div > <
-        h2 > { props.name } < /h2> <
-        p > { props.studio } < /p> <
-        p > { props.bio } < /p> <
-        h3 > Artist Profile < /h3> <
+        p > Studio { props.studio } < /p> <
+        p > { props.bio } < /p>  <
         ul >
         <
-        li > < strong > Type: < /strong> { props.type }</li >
+        li > < strong > < /strong> { props.type } artist</li >
+        <
+        br / >
         <
         /ul> < /
         div >
@@ -70,9 +71,10 @@ class App extends Component {
         return ( <
             div >
             <
-            h2 > Artists < /h2> <
             header className = "App-header" >
             <
+            h1 > ARTISTS < /h1>    <
+            br / > <
             p >
             <
             code > src / App.js < /code>  < /
