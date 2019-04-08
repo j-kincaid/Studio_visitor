@@ -5,6 +5,18 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+code {
+    display: none;
+}
+
 ul {
     list-style: none;
 }
@@ -54,15 +66,17 @@ body {
 
 img {
     max-width: 50%;
-  }
-  ul li {
+}
+
+ul li {
     list-style: none;
     font-style: normal;
     font-size: 1em;
-  }
-  a {
+}
+
+a {
     text-decoration: none;
-  }
+}
 
 .dropbtn {
     background-color: #3498DB;

@@ -69,18 +69,19 @@ class App extends Component {
     render() {
         return ( <
             div >
-
-            <
-            header className = "App-header" >
             <
             h2 > Artists < /h2> <
+            header className = "App-header" >
+            <
             p >
-            Art < code > src / App.js < /code> and save to reload. < /
-            p > <
+            <
+            code > src / App.js < /code>  < /
+            p >
+            <
             a className = "App-link"
             href = "https://reactjs.org"
             target = "_blank"
-            rel = "noopener noreferrer" > < /a> <
+            rel = "noopener noreferrer" > < /a>  <
             ArtistList artist = { artists }
             /> < /
             header >
