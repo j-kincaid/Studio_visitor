@@ -1,8 +1,14 @@
 @import url("reset.css");
 body {
     background-color: #000;
-    color: #fff;
+    color: rgb(60, 170, 239);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.profile {
+    margin: auto;
+    padding: 5%;
 }
 
 header h1 {
@@ -10,7 +16,8 @@ header h1 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.5em;
+    padding: 1vw;
 }
 
 code {
