@@ -7,14 +7,13 @@
     LiftOff Project
  
     Jessica Kincaid
-    March 11, 2019
+    May 30, 2019
 ---->
 
 <head>
     <title>CHARLOTTE STREET FOUNDATION OPEN STUDIOS EVENT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/StudiosMap.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -24,21 +23,11 @@
         </header>
 
         <body>
-            <div id="map" class=".image">
-                <!-- <img background-image: url(StudiosMap.png);/> -->
-                <svg>
-                    <defs>
-                        <g id="studio-icon">
-                            <!-- All the paths and shapes for studio icons -->
-                        </g>
-
-                        <g id="studio-map">
-                            <!-- All the paths and shapes for map icons -->
-                        </g>
-                    </defs>
-                </svg>
-            </div>
-            <div >
+            
+            <div id="">
+                <div id="map">
+                    <img class="layout" src="images/StudiosMap.png">
+                </div>
                 <button onclick="visitLocation()" class="dropbtn">Locations</button>
                 <!-- <ul id="mapMenu" class="dropdown-content">
                     <li class="rest"><a href="#Restrooms">Restrooms</a></li>
@@ -48,14 +37,14 @@
 
                 </ul> -->
 
-            <form id="mainMenu">
+            <!-- <form id="mainMenu">
                 <select name="location">
-                    <option value="rest"><a href="#Restrooms">Restrooms</a></option>
-                    <option value="sched"><a href="schedule.html">Live Schedule</a></option>
-                    <option value="child"><a href="#childrens">Children's Table</a></option>
-                    <option value="refresh"><a href="#refresh">Refreshments</a></option>
+                    <option value="rest"><a href="#Restrooms" style="background-color: aqua">Restrooms</a></option>
+                    <option value="sched"><a href="schedule.html" style="background-color: blue">Live Schedule</a></option>
+                    <option value="child"><a href="#childrens" style="background-color: green">Children's Table</a></option>
+                    <option value="refresh"><a href="#refresh" style="background-color: yellow">Refreshments</a></option>
                 </select>
-            </form>
+            </form> -->
                 <button onclick="visitArtist()" class="dropbtn">Artists</button>
 
                 <select name="artist">
@@ -79,10 +68,8 @@
                         <option value="vis"><a href="#">19 Fuko Ito</a></option>
                         <option value="child"><a href="#childrens">Children's Table</a></option>
                         <option value="refresh"><a href="#refresh">Refreshments</a></option>
-                        <option value="child"><a href="#childrens">Children's Table</a></option>
-                        <option value="refresh"><a href="#refresh">Refreshments</a></option>
                     </select>
-                <!-- <ul id="artistMenu" class="dropdown-content" class="sub-menu"> -->
+                 <ul id="artistMenu" class="dropdown-content" class="sub-menu"> 
 
                    
                     <li class="vis"><a href="#">20 Elizabeth Stehling</a></li>

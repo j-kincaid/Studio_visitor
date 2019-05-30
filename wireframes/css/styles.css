@@ -3,6 +3,7 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 ul {
@@ -29,9 +30,10 @@ h1 {
     font-size: 1.5em;
 }
 
-img {
-    max-width: 60vw;
-    border-radius: 5px;
+div#map {
+    max-width: 95%;
+    background-color: #000;
+    margin: 0 auto;
 }
 
 #container {
@@ -47,20 +49,21 @@ body {
 
 #mapMenu,
 #artistMenu {
-    position: absolute;
+    /* position: absolute; */
     font-size: 2em;
-    list-style: none;
 }
 
 ul li {
     font-size: 1em;
+    width: 100%;
 }
 
 .dropbtn {
     background-color: #3498DB;
     color: white;
     padding: 1em;
-    font-size: 16px;
+    font-size: 1.5em;
+    width: 100%;
     border: none;
     cursor: pointer;
 }
@@ -101,7 +104,7 @@ ul li {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    /* position: absolute; */
     font-size: 3px;
     background-color: #f1f1f1;
     min-width: 30vw;
