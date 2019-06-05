@@ -16,27 +16,26 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <div id="container">
-        <header>
-            <h1>CHARLOTTE STREET FOUNDATION OPEN STUDIOS EVENT</h1>
-            
-        </header>
 
-        <div class="layout">
-            <img src="images/StudiosMap.png">
-        </div>
-        <body>
-            
-            <div id="root">
+            <div id="container">
+        <header>
+                <h1>CHARLOTTE STREET FOUNDATION OPEN STUDIOS EVENT</h1>   
+           
                 
-               
-                <ul id="artistMenu" class="dropdown-content" class="sub-menu"> 
+        </header>
+        <div id="layout">
+                <img id="map" src="images/StudiosMap.png">
+            </div> 
+
+<body>
+        <div id="root">
+                <ul id="artistMenu"> 
                     <li class="vis"><a href="#">1 Katerina Guillermo</a></li>
-                    <li class="write perf"><a href="#">2 Madison Mae Parker</a></li>
-                    <li class="write perf"><a href="#">3 Jessica Ayala</a></li>
-                    <li class="write perf"><a href="#">4 Sheri Hall</a></li>
-                    <li class="write"><a href="#">6 Lavinia Roberts</a></li>
+                    <li class="write"><a href="#">2 Madison Mae Parker</a></li>
+                    <li class="write"><a href="#">3 Jessica Ayala</a></li>
+                    <li class="write"><a href="#">4 Sheri Hall</a></li>
+                    <li class="write"><a href="#">5 Lavinia Roberts</a></li>
+                    <li class="write"><a href="#">6 JE Baker</a></option>
                     <li class="perf"><a href="#">7 Kaia Nutting</a></li>
                     <li class="write"><a href="#">8 Kevin Kilroy</a></li>
                     <li class="vis"><a href="#">9 Lilly McElroy</a></li>
@@ -48,7 +47,7 @@
                     <li class="perf"><a href="#">15 Daniel Hogans</a></option>
                     <li class="perf"><a href="#">16 KC Public Theatre</a></option>
                     <li class="perf"><a href="#">17 Mazzy Mann</a></option>
-                    <li class="write"><a href="#">18 JE Baker</a></option>
+                    <li class="perf"><a href="#">18 Kyle Mullens</a></option>
                     <li class="vis"><a href="#">19 Fuko Ito</a></option>
                     <li class="vis"><a href="#">20 Elizabeth Stehling</a></li>
                     <li class="write"><a href="#">21 Alicen Lundberg</a></li>
@@ -60,35 +59,8 @@
                     <li class="vis"><a href="#">27 Bo Hubbard</a></li>
                     <li class="vis"><a href="#">28 Nazanin Amiri</a></li>
                 </ul>
-
-                <script>
-                    /* When the user clicks on the button, 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    toggle between hiding and showing the dropdown content */
-                    function visitLocation() {
-                        document.getElementById("mapMenu").classList.toggle("show");
-                    }
-
-                    function visitArtist() {
-                        document.getElementById("artistMenu").classList.toggle("show");
-                    }
-
-                    // Close the dropdown if the user clicks outside of it
-                    window.onclick = function(event) {
-                        if (!event.target.matches('.dropbtn')) {
-                            var dropdowns = document.getElementsByClassName("dropdown-content");
-                            var i;
-                            for (i = 0; i < dropdowns.length; i++) {
-                                var openDropdown = dropdowns[i];
-                                if (openDropdown.classList.contains('show')) {
-                                    openDropdown.classList.remove('show');
-                                }
-                            }
-                        }
-                    }
-                </script>
+            </div>
         </body>
         <footer><small>&copy; 2019 Jessica Kincaid</small></footer>
-
-</body>
 
 </html>
