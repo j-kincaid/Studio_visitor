@@ -8,6 +8,7 @@ import About from './About';
 import Artists from './Artists';
 import Programs from './Programs';
 
+
 const App = () => ( <
     BrowserRouter >
     <
@@ -16,22 +17,22 @@ const App = () => ( <
     Header / >
 
     <
-    Route exact path = "/"
-    component = { Home }
-    /> <
-    Route path = "/about"
-    render = {
-        () => < About title = 'About' / >
-    }
-    /> <
-    Route path = "/artists"
-    component = { Artists }
-    /> <
-    Route path = "/programs"
-    component = { Programs }
-    /> < /
-    div > <
-    /BrowserRouter>
-);
+//     Route exact path = "/"
+//     component = { Home }
+//     /> <
+//     Route path = "/about"
+//     render = {
+//         () => < About title = 'About' / >
+//     }
+//     /> <
+//     Route path = "/artists"
+//     component = { Artists }
+//     /> <
+//     Route path = "/programs"
+//     component = { Programs }
+//     /> < /
+//     div > <
+//     /BrowserRouter>
+// );
 
 export default App;
