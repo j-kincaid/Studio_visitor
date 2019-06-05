@@ -6,7 +6,6 @@ import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Artists from './Artists';
-import Programs from './Programs';
 
 
 const App = () => ( <

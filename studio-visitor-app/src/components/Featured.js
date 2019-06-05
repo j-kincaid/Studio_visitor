@@ -6,7 +6,7 @@ const Featured = () => {
         div className = "main-content" >
         <
         h2 > Featured: < /h2> <
-        p > Introducing < strong > < /strong>, an artist who creates <strong></strong > ! < /p> <
+        p > Introducing < strong > < /strong>, name <strong></strong > ! < /p> <
         /div>
     );
 }

@@ -58,31 +58,31 @@ const artists = [{
         id: 6,
         url: 'images/06BakerJE.jpg',
         name: 'JE BAKER',
-        studio: 6,
+        studio: 7,
         bio: 'Jens-bio',
         type: 'writer'
     },
     { 
-        id: 6,
+        id: 7,
         url: 'images/07KilroyKevin.jpg',
         name: 'KEVIN KILROY',
-        studio: 7,
+        studio: 8,
         bio: 'Kaias-bio',
         type: 'writer'
     }, 
     {
-        id: 7,
+        id: 8,
         url: 'images/08McElroyLilly.jpg',
         name: 'LILLY MCELROY',
-        studio: 8,
+        studio: 9,
         bio: 'Lillys-bio',
         type: 'visual'
     },
     {
-        id: 8,
+        id: 9,
         url: 'images/09SernaKiki.jpg',
         name: 'KIKI SERNA',
-        studio: 9,
+        studio: 10,
         bio: 'Kikis-bio',
         type: 'visual'
     },
